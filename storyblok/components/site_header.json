@@ -1,0 +1,26 @@
+{
+  "name": "site_header",
+  "display_name": "Site Header",
+  "description": "Global header config. Stored as a single story at globals/header.",
+  "is_root": true,
+  "is_nestable": false,
+  "schema": {
+    "logo": { "type": "asset", "filetypes": ["images"], "display_name": "Logo" },
+    "nav_links": {
+      "type": "bloks",
+      "display_name": "Nav links",
+      "restrict_components": true,
+      "component_whitelist": ["nav_link"],
+      "minimum": 0,
+      "maximum": 8
+    },
+    "cta": {
+      "type": "bloks",
+      "display_name": "CTA",
+      "restrict_components": true,
+      "component_whitelist": ["cta_button"],
+      "minimum": 0,
+      "maximum": 1
+    }
+  }
+}

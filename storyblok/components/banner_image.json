@@ -1,0 +1,21 @@
+{
+  "name": "banner_image",
+  "display_name": "Banner Image",
+  "description": "Full-width rounded banner image. Used on Homepage and About.",
+  "is_root": false,
+  "is_nestable": true,
+  "schema": {
+    "image": { "type": "asset", "filetypes": ["images"], "required": true, "display_name": "Image" },
+    "alt_text": { "type": "text", "display_name": "Alt text" },
+    "aspect": {
+      "type": "option",
+      "display_name": "Aspect",
+      "options": [
+        { "name": "Wide", "value": "wide" },
+        { "name": "Tall", "value": "tall" }
+      ],
+      "default_value": "wide",
+      "exclude_empty_option": true
+    }
+  }
+}

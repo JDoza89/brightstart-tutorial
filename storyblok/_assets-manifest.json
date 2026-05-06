@@ -1,0 +1,127 @@
+{
+  "space_id": 292311154382898,
+  "region": "eu",
+  "uploaded_at": "2026-05-06",
+  "source": "Figma fileKey qHNBv6MpCm5FgxoodtGC8G — assets pulled from Figma image fills via mcp__figma__get_design_context, then pushed via storyblok assets push.",
+  "assets": [
+    {
+      "page": "homepage", "section": "Hero Banner",  "figma_node": "29:220",
+      "figma_asset_uuid": "7ae63a98-8aee-41de-9b60-42d772853ad0",
+      "local_file": "storyblok/assets/home-hero-banner.png",
+      "storyblok_id": 173424987709841,
+      "storyblok_url": "https://s3.amazonaws.com/a.storyblok.com/f/292311154382898/837c3f3916/home-hero-banner.png"
+    },
+    {
+      "page": "homepage", "section": "Case Study",   "figma_node": "8:27",
+      "figma_asset_uuid": "c2b9ac0f-3f29-4acc-94d5-9ff35bb66ee9",
+      "local_file": "storyblok/assets/case-study-bloom.png",
+      "storyblok_id": 173424979345808,
+      "storyblok_url": "https://s3.amazonaws.com/a.storyblok.com/f/292311154382898/46e4d1f946/case-study-bloom.png"
+    },
+    {
+      "page": "about", "section": "Team Banner", "figma_node": "29:222",
+      "figma_asset_uuid": "666b6755-57db-4d0b-919d-d3203fbb542d",
+      "local_file": "storyblok/assets/about-team-banner.png",
+      "storyblok_id": 173424969585039,
+      "storyblok_url": "https://s3.amazonaws.com/a.storyblok.com/f/292311154382898/2328337474/about-team-banner.png"
+    },
+
+    {
+      "page": "homepage", "section": "Services Grid", "figma_node": "7:19", "service": "brand_identity",
+      "figma_asset_uuid": "5826dcad-01cd-4f52-bd0a-5c85205c27c8",
+      "local_file": "storyblok/assets/service-brand-identity.png",
+      "storyblok_id": 173425050231193,
+      "storyblok_url": "https://s3.amazonaws.com/a.storyblok.com/f/292311154382898/40f217a57e/service-brand-identity.png"
+    },
+    {
+      "page": "homepage", "section": "Services Grid", "figma_node": "7:24", "service": "website_design",
+      "figma_asset_uuid": "c0c08415-268b-4f69-99f3-d685d3efd1da",
+      "local_file": "storyblok/assets/service-website-design.png",
+      "storyblok_id": 173425066025371,
+      "storyblok_url": "https://s3.amazonaws.com/a.storyblok.com/f/292311154382898/0718562972/service-website-design.png"
+    },
+    {
+      "page": "homepage", "section": "Services Grid", "figma_node": "7:29", "service": "marketing_growth",
+      "figma_asset_uuid": "702f245d-bedb-47b4-b2fb-e854cb13875c",
+      "local_file": "storyblok/assets/service-marketing-growth.png",
+      "storyblok_id": 173425058541978,
+      "storyblok_url": "https://s3.amazonaws.com/a.storyblok.com/f/292311154382898/a685308b58/service-marketing-growth.png"
+    },
+
+    {
+      "page": "about", "section": "Team", "figma_node": "39:244", "team_member": "eva_lopez",
+      "figma_asset_uuid": "a8dc3b4f-3828-4d42-aaa6-549834ed1b4e",
+      "local_file": "storyblok/assets/team-eva-lopez.png",
+      "storyblok_id": 173425073869212,
+      "storyblok_url": "https://s3.amazonaws.com/a.storyblok.com/f/292311154382898/43ecb7839c/team-eva-lopez.png"
+    },
+    {
+      "page": "about", "section": "Team", "figma_node": "39:248", "team_member": "john_smith",
+      "figma_asset_uuid": "ca9fd8b3-3bec-4f24-95a5-d7674212bae6",
+      "local_file": "storyblok/assets/team-john-smith.png",
+      "storyblok_id": 173425081528733,
+      "storyblok_url": "https://s3.amazonaws.com/a.storyblok.com/f/292311154382898/9f4cb7c369/team-john-smith.png"
+    },
+    {
+      "page": "about", "section": "Team", "figma_node": "39:252", "team_member": "kathy_bowman",
+      "figma_asset_uuid": "73071c6c-d0fd-4709-8d68-8533143d27ec",
+      "local_file": "storyblok/assets/team-kathy-bowman.png",
+      "storyblok_id": 173425089085854,
+      "storyblok_url": "https://s3.amazonaws.com/a.storyblok.com/f/292311154382898/da1c91355d/team-kathy-bowman.png"
+    },
+
+    {
+      "page": "blog", "section": "Featured Post", "figma_node": "42:299", "post_slug": "color-palette-voice",
+      "figma_asset_uuid": "877dd02a-ce1b-43fb-9e20-a58bd064e42c",
+      "local_file": "storyblok/assets/post-featured-color-palette.png",
+      "storyblok_id": 173425026072982,
+      "storyblok_url": "https://s3.amazonaws.com/a.storyblok.com/f/292311154382898/605ae26871/post-featured-color-palette.png"
+    },
+    {
+      "page": "blog", "section": "More Stories", "figma_node": "11:114", "post_slug": "design-systems-scale",
+      "figma_asset_uuid": "65a10004-e606-40c1-81fd-fdfa620250b1",
+      "local_file": "storyblok/assets/post-design-systems.png",
+      "storyblok_id": 173425012040084,
+      "storyblok_url": "https://s3.amazonaws.com/a.storyblok.com/f/292311154382898/6e2ed08668/post-design-systems.png"
+    },
+    {
+      "page": "blog", "section": "More Stories", "figma_node": "11:119", "post_slug": "brand-voice-roadmap",
+      "figma_asset_uuid": "95be3c17-bce1-4a63-b8f1-fa2164342b14",
+      "local_file": "storyblok/assets/post-brand-voice.png",
+      "storyblok_id": 173425004433811,
+      "storyblok_url": "https://s3.amazonaws.com/a.storyblok.com/f/292311154382898/a61008e850/post-brand-voice.png"
+    },
+    {
+      "page": "blog", "section": "More Stories", "figma_node": "11:124", "post_slug": "studio-that-says-no",
+      "figma_asset_uuid": "d91aa145-1d5a-4db5-a50b-95f3960b38ac",
+      "local_file": "storyblok/assets/post-saying-no.png",
+      "storyblok_id": 173425033879959,
+      "storyblok_url": "https://s3.amazonaws.com/a.storyblok.com/f/292311154382898/c11fc94dbb/post-saying-no.png"
+    },
+    {
+      "page": "blog", "section": "More Stories", "figma_node": "11:130", "post_slug": "love-letter-working-type",
+      "figma_asset_uuid": "7301966b-6937-4eda-95e3-7909e197a788",
+      "local_file": "storyblok/assets/post-working-type.png",
+      "storyblok_id": 173425042260376,
+      "storyblok_url": "https://s3.amazonaws.com/a.storyblok.com/f/292311154382898/d58f746821/post-working-type.png"
+    },
+    {
+      "page": "blog", "section": "More Stories", "figma_node": "11:135", "post_slug": "discovery-without-theatre",
+      "figma_asset_uuid": "c814c413-1737-4f07-8dec-8152bd55104d",
+      "local_file": "storyblok/assets/post-discovery.png",
+      "storyblok_id": 173425019720085,
+      "storyblok_url": "https://s3.amazonaws.com/a.storyblok.com/f/292311154382898/d5a4bf1817/post-discovery.png"
+    },
+    {
+      "page": "blog", "section": "More Stories", "figma_node": "11:140", "post_slug": "bloom-year-in-review",
+      "figma_asset_uuid": "69d8a0d1-f0ad-41e2-a666-32b104fcbd38",
+      "local_file": "storyblok/assets/post-bloom-review.png",
+      "storyblok_id": 173424995385746,
+      "storyblok_url": "https://s3.amazonaws.com/a.storyblok.com/f/292311154382898/e2e8028b22/post-bloom-review.png"
+    }
+  ],
+  "skipped": {
+    "icons_and_decorative_svgs": "Per user direction, icons and decorative SVGs are handled by the frontend's icon library, not stored in Storyblok.",
+    "value_card_icons": "About → Values cards reference icon names (heart/star/sparkle); resolved client-side."
+  }
+}

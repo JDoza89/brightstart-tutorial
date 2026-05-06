@@ -1,0 +1,18 @@
+{
+  "name": "team_section",
+  "display_name": "Team Section",
+  "description": "Heading + repeater of Team Members.",
+  "is_root": false,
+  "is_nestable": true,
+  "schema": {
+    "title": { "type": "text", "required": true, "display_name": "Title" },
+    "members": {
+      "type": "bloks",
+      "display_name": "Members",
+      "restrict_components": true,
+      "component_whitelist": ["team_member"],
+      "minimum": 1,
+      "maximum": 12
+    }
+  }
+}

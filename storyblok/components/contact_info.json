@@ -1,0 +1,20 @@
+{
+  "name": "contact_info",
+  "display_name": "Contact Info",
+  "description": "Right column on Contact: info blocks + a Prefer-email block.",
+  "is_root": false,
+  "is_nestable": true,
+  "schema": {
+    "info_blocks": {
+      "type": "bloks",
+      "display_name": "Info blocks",
+      "restrict_components": true,
+      "component_whitelist": ["info_block"],
+      "minimum": 0,
+      "maximum": 6
+    },
+    "email_title": { "type": "text", "display_name": "Email block title" },
+    "email_description": { "type": "textarea", "display_name": "Email block description" },
+    "email_address": { "type": "text", "display_name": "Email address" }
+  }
+}

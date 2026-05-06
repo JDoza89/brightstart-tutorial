@@ -1,0 +1,22 @@
+{
+  "name": "case_study",
+  "display_name": "Case Study",
+  "description": "Case study content type. Referenced by Case Study Section; can also have its own detail page later.",
+  "is_root": true,
+  "is_nestable": false,
+  "schema": {
+    "image": { "type": "asset", "filetypes": ["images"], "required": true, "display_name": "Image" },
+    "eyebrow": { "type": "text", "display_name": "Eyebrow" },
+    "title": { "type": "text", "required": true, "display_name": "Title" },
+    "summary": { "type": "textarea", "display_name": "Summary" },
+    "content": { "type": "richtext", "display_name": "Detail content (optional)" },
+    "cta": {
+      "type": "bloks",
+      "display_name": "CTA",
+      "restrict_components": true,
+      "component_whitelist": ["cta_button"],
+      "minimum": 0,
+      "maximum": 1
+    }
+  }
+}

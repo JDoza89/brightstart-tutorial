@@ -1,0 +1,24 @@
+{
+  "name": "form_field",
+  "display_name": "Form Field",
+  "description": "Configurable form input. Used inside Contact Form.",
+  "is_root": false,
+  "is_nestable": true,
+  "schema": {
+    "label": { "type": "text", "required": true, "display_name": "Label" },
+    "name": { "type": "text", "required": true, "display_name": "Submission key", "description": "Used as the form field name on submit" },
+    "type": {
+      "type": "option",
+      "display_name": "Input type",
+      "options": [
+        { "name": "Text", "value": "text" },
+        { "name": "Email", "value": "email" },
+        { "name": "Textarea", "value": "textarea" }
+      ],
+      "default_value": "text",
+      "exclude_empty_option": true
+    },
+    "placeholder": { "type": "text", "display_name": "Placeholder" },
+    "required": { "type": "boolean", "display_name": "Required", "default_value": false }
+  }
+}

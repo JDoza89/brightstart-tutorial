@@ -1,0 +1,64 @@
+{
+  "space_id": 292311154382898,
+  "region": "eu",
+  "generated_at": "2026-05-05",
+  "atoms": [
+    { "name": "cta_button",  "file": "components/cta_button.json",  "deps": [] },
+    { "name": "nav_link",    "file": "components/nav_link.json",    "deps": [] },
+    { "name": "value_card",  "file": "components/value_card.json",  "deps": [] },
+    { "name": "team_member", "file": "components/team_member.json", "deps": [] },
+    { "name": "faq_item",    "file": "components/faq_item.json",    "deps": [] },
+    { "name": "form_field",  "file": "components/form_field.json",  "deps": [] },
+    { "name": "info_block",  "file": "components/info_block.json",  "deps": [] }
+  ],
+  "sections": [
+    { "name": "hero_intro",      "file": "components/hero_intro.json",      "deps": ["cta_button"] },
+    { "name": "page_header",     "file": "components/page_header.json",     "deps": ["cta_button"] },
+    { "name": "banner_image",    "file": "components/banner_image.json",    "deps": [] },
+    { "name": "cta_strip",       "file": "components/cta_strip.json",       "deps": ["cta_button"] },
+    { "name": "values_section",  "file": "components/values_section.json",  "deps": ["value_card"] },
+    { "name": "team_section",    "file": "components/team_section.json",    "deps": ["team_member"] },
+    { "name": "faq_list",        "file": "components/faq_list.json",        "deps": ["faq_item"] },
+    { "name": "contact_form",    "file": "components/contact_form.json",    "deps": ["form_field"] },
+    { "name": "contact_info",    "file": "components/contact_info.json",    "deps": ["info_block"] },
+    { "name": "services_grid",   "file": "components/services_grid.json",   "deps": [], "references": ["service"] },
+    { "name": "posts_grid",      "file": "components/posts_grid.json",      "deps": [], "references": ["post"] },
+    { "name": "feature_section", "file": "components/feature_section.json", "deps": ["cta_button"], "references": ["post", "case_study"], "variants": ["cta", "featured_post", "case_study"] }
+  ],
+  "content_types": [
+    { "name": "post",        "file": "components/post.json",        "deps": [], "datasources": ["post_categories"], "tabs": ["SEO"] },
+    { "name": "service",     "file": "components/service.json",     "deps": [] },
+    { "name": "case_study",  "file": "components/case_study.json",  "deps": ["cta_button"] },
+    { "name": "page",        "file": "components/page.json",
+      "deps": [
+        "hero_intro", "page_header", "banner_image",
+        "services_grid", "feature_section", "cta_strip",
+        "values_section", "team_section", "posts_grid",
+        "faq_list", "contact_form", "contact_info"
+      ],
+      "tabs": ["SEO"]
+    }
+  ],
+  "singletons": [
+    { "name": "site_header", "file": "components/site_header.json", "deps": ["nav_link", "cta_button"], "stored_at": "globals/header" },
+    { "name": "site_footer", "file": "components/site_footer.json", "deps": ["nav_link"],               "stored_at": "globals/footer" }
+  ],
+  "datasources": [
+    { "slug": "post_categories", "id": 173417159794685, "entries": ["brand", "strategy", "design", "development"] }
+  ],
+  "page_body_whitelist": [
+    "hero_intro", "page_header", "banner_image",
+    "services_grid", "feature_section", "cta_strip",
+    "values_section", "team_section", "posts_grid",
+    "faq_list", "contact_form", "contact_info"
+  ],
+  "merged_components": {
+    "feature_section": {
+      "replaces": ["cta_section", "case_study_section", "featured_post_section"],
+      "rationale": "Three shape-twin wrappers collapsed into one. Variant Option (cta | featured_post | case_study) drives presentation.",
+      "deleted_from_space_at": "2026-05-06"
+    }
+  },
+  "legacy_blueprint_components": ["teaser", "feature", "grid"],
+  "legacy_blueprint_note": "Default blueprint components left in place — they may be referenced by the scaffolded Home story. Will revisit cleanup after step 4 stories are created."
+}

@@ -1,0 +1,29 @@
+{
+  "name": "feature",
+  "display_name": null,
+  "description": null,
+  "created_at": "2026-05-05T22:00:19.099Z",
+  "updated_at": "2026-05-05T22:00:19.099Z",
+  "id": 173378843036967,
+  "schema": {
+    "name": {
+      "type": "text",
+      "id": "q4l8ZWK2T4uWa7tkYc6qVg"
+    }
+  },
+  "image": null,
+  "preview_field": null,
+  "is_root": false,
+  "preview_tmpl": null,
+  "is_nestable": true,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "feature",
+  "component_group_uuid": null,
+  "color": null,
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "metadata": {}
+}

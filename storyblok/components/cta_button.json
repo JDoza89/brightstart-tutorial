@@ -1,0 +1,21 @@
+{
+  "name": "cta_button",
+  "display_name": "CTA Button",
+  "description": "Call-to-action button. Choose primary or ghost style.",
+  "is_root": false,
+  "is_nestable": true,
+  "schema": {
+    "label": { "type": "text", "required": true, "display_name": "Label" },
+    "link": { "type": "multilink", "display_name": "Link" },
+    "style": {
+      "type": "option",
+      "display_name": "Style",
+      "options": [
+        { "name": "Primary", "value": "primary" },
+        { "name": "Ghost", "value": "ghost" }
+      ],
+      "default_value": "primary",
+      "exclude_empty_option": true
+    }
+  }
+}

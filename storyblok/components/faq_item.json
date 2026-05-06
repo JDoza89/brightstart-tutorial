@@ -1,0 +1,11 @@
+{
+  "name": "faq_item",
+  "display_name": "FAQ Item",
+  "description": "Question + rich-text answer.",
+  "is_root": false,
+  "is_nestable": true,
+  "schema": {
+    "question": { "type": "text", "required": true, "display_name": "Question" },
+    "answer": { "type": "richtext", "display_name": "Answer" }
+  }
+}
