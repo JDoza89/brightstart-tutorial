@@ -1,0 +1,12 @@
+{
+  "name": "value_card",
+  "display_name": "Value Card",
+  "description": "Icon + title + description. Used inside Values Section.",
+  "is_root": false,
+  "is_nestable": true,
+  "schema": {
+    "icon": { "type": "text", "display_name": "Icon", "description": "Icon library key (e.g. heart, star, sparkle)" },
+    "title": { "type": "text", "required": true, "display_name": "Title" },
+    "description": { "type": "textarea", "display_name": "Description" }
+  }
+}

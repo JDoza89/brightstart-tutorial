@@ -1,0 +1,20 @@
+{
+  "name": "hero_intro",
+  "display_name": "Hero Intro",
+  "description": "Homepage hero with eyebrow, headline, subhead, paired CTAs.",
+  "is_root": false,
+  "is_nestable": true,
+  "schema": {
+    "eyebrow": { "type": "text", "display_name": "Eyebrow" },
+    "headline": { "type": "text", "required": true, "display_name": "Headline" },
+    "subhead": { "type": "textarea", "display_name": "Subhead" },
+    "ctas": {
+      "type": "bloks",
+      "display_name": "CTAs",
+      "restrict_components": true,
+      "component_whitelist": ["cta_button"],
+      "minimum": 0,
+      "maximum": 2
+    }
+  }
+}

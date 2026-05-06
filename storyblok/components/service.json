@@ -1,0 +1,14 @@
+{
+  "name": "service",
+  "display_name": "Service",
+  "description": "Service offering. Referenced by Services Grid.",
+  "is_root": true,
+  "is_nestable": false,
+  "schema": {
+    "eyebrow": { "type": "text", "display_name": "Eyebrow" },
+    "title": { "type": "text", "required": true, "display_name": "Title" },
+    "description": { "type": "textarea", "display_name": "Description" },
+    "image": { "type": "asset", "filetypes": ["images"], "display_name": "Image" },
+    "link": { "type": "multilink", "display_name": "Link (optional)" }
+  }
+}

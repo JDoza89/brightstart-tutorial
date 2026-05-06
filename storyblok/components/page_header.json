@@ -1,0 +1,30 @@
+{
+  "name": "page_header",
+  "display_name": "Page Header",
+  "description": "Eyebrow, title, description. Choose small (Blog/FAQ/Contact) or large (About) size.",
+  "is_root": false,
+  "is_nestable": true,
+  "schema": {
+    "eyebrow": { "type": "text", "display_name": "Eyebrow" },
+    "title": { "type": "text", "required": true, "display_name": "Title" },
+    "description": { "type": "textarea", "display_name": "Description" },
+    "size": {
+      "type": "option",
+      "display_name": "Size",
+      "options": [
+        { "name": "Small", "value": "small" },
+        { "name": "Large", "value": "large" }
+      ],
+      "default_value": "small",
+      "exclude_empty_option": true
+    },
+    "cta": {
+      "type": "bloks",
+      "display_name": "CTA (optional)",
+      "restrict_components": true,
+      "component_whitelist": ["cta_button"],
+      "minimum": 0,
+      "maximum": 1
+    }
+  }
+}

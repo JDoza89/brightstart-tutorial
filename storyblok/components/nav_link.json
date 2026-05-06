@@ -1,0 +1,11 @@
+{
+  "name": "nav_link",
+  "display_name": "Nav Link",
+  "description": "Label + link pair. Used by Site Header and Site Footer.",
+  "is_root": false,
+  "is_nestable": true,
+  "schema": {
+    "label": { "type": "text", "required": true, "display_name": "Label" },
+    "link": { "type": "multilink", "required": true, "display_name": "Link" }
+  }
+}

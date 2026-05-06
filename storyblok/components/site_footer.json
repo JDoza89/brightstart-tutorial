@@ -1,0 +1,27 @@
+{
+  "name": "site_footer",
+  "display_name": "Site Footer",
+  "description": "Global footer config. Stored as a single story at globals/footer.",
+  "is_root": true,
+  "is_nestable": false,
+  "schema": {
+    "tagline": { "type": "textarea", "display_name": "Tagline" },
+    "nav_links": {
+      "type": "bloks",
+      "display_name": "Nav links",
+      "restrict_components": true,
+      "component_whitelist": ["nav_link"],
+      "minimum": 0,
+      "maximum": 8
+    },
+    "social_links": {
+      "type": "bloks",
+      "display_name": "Social links",
+      "restrict_components": true,
+      "component_whitelist": ["nav_link"],
+      "minimum": 0,
+      "maximum": 6
+    },
+    "copyright": { "type": "text", "display_name": "Copyright" }
+  }
+}

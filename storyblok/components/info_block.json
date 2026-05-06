@@ -1,0 +1,13 @@
+{
+  "name": "info_block",
+  "display_name": "Info Block",
+  "description": "Address / phone / email line. Used inside Contact Info.",
+  "is_root": false,
+  "is_nestable": true,
+  "schema": {
+    "icon": { "type": "text", "display_name": "Icon" },
+    "title": { "type": "text", "required": true, "display_name": "Title" },
+    "value": { "type": "text", "required": true, "display_name": "Value" },
+    "link": { "type": "multilink", "display_name": "Link (optional)" }
+  }
+}

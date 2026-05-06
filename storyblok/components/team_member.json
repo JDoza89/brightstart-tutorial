@@ -1,0 +1,13 @@
+{
+  "name": "team_member",
+  "display_name": "Team Member",
+  "description": "Photo + name + role. Used inside Team Section.",
+  "is_root": false,
+  "is_nestable": true,
+  "schema": {
+    "name": { "type": "text", "required": true, "display_name": "Name" },
+    "role": { "type": "text", "display_name": "Role" },
+    "photo": { "type": "asset", "filetypes": ["images"], "display_name": "Photo" },
+    "link": { "type": "multilink", "display_name": "Profile link (optional)" }
+  }
+}

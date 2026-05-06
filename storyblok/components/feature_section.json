@@ -1,0 +1,45 @@
+{
+  "name": "feature_section",
+  "display_name": "Feature Section",
+  "description": "Wrapper section that highlights either CTAs, a featured post, or a case study. Pick the variant in the Variants tab; fill the field that matches.",
+  "is_root": false,
+  "is_nestable": true,
+  "schema": {
+    "title": { "type": "text", "display_name": "Title" },
+    "subtitle": { "type": "textarea", "display_name": "Subtitle" },
+    "ctas": {
+      "type": "bloks",
+      "display_name": "CTAs (cta variant only)",
+      "description": "One or two CTA Buttons. Used when variant = CTA.",
+      "restrict_components": true,
+      "component_whitelist": ["cta_button"],
+      "minimum": 0,
+      "maximum": 2
+    },
+    "reference": {
+      "type": "option",
+      "display_name": "Story reference (featured_post / case_study variants)",
+      "description": "Used when variant = Featured Post or Case Study. Pick a Post or Case Study story.",
+      "source": "internal_stories",
+      "filter_content_type": ["post", "case_study"]
+    },
+    "tab_variants": {
+      "type": "tab",
+      "display_name": "Variants",
+      "keys": ["variant"]
+    },
+    "variant": {
+      "type": "option",
+      "display_name": "Variant",
+      "description": "Picks the layout. Frontend renders accordingly.",
+      "options": [
+        { "name": "CTA",           "value": "cta" },
+        { "name": "Featured Post", "value": "featured_post" },
+        { "name": "Case Study",    "value": "case_study" }
+      ],
+      "default_value": "cta",
+      "exclude_empty_option": true,
+      "required": true
+    }
+  }
+}

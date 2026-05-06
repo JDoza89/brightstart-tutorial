@@ -1,0 +1,18 @@
+{
+  "name": "values_section",
+  "display_name": "Values Section",
+  "description": "Heading + repeater of Value Cards.",
+  "is_root": false,
+  "is_nestable": true,
+  "schema": {
+    "title": { "type": "text", "required": true, "display_name": "Title" },
+    "values": {
+      "type": "bloks",
+      "display_name": "Values",
+      "restrict_components": true,
+      "component_whitelist": ["value_card"],
+      "minimum": 1,
+      "maximum": 6
+    }
+  }
+}

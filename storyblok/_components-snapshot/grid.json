@@ -1,0 +1,29 @@
+{
+  "name": "grid",
+  "display_name": null,
+  "description": null,
+  "created_at": "2026-05-05T22:00:19.083Z",
+  "updated_at": "2026-05-05T22:00:19.083Z",
+  "id": 173378842971430,
+  "schema": {
+    "columns": {
+      "type": "bloks",
+      "id": "lOvunwVpRR2w5wxUOnEB7g"
+    }
+  },
+  "image": null,
+  "preview_field": null,
+  "is_root": false,
+  "preview_tmpl": null,
+  "is_nestable": true,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "grid",
+  "component_group_uuid": null,
+  "color": null,
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "metadata": {}
+}

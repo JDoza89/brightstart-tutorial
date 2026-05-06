@@ -1,0 +1,54 @@
+{
+  "space_id": 292311154382898,
+  "region": "eu",
+  "created_at": "2026-05-06",
+  "all_drafts": true,
+  "note": "All 22 stories created with published=false. Review and publish manually after step 5 frontend confirms rendering works.",
+  "folders": [
+    { "name": "Services",     "slug": "services",     "id": 173426288774029, "uuid": "b26c3cda-84db-4947-a43b-7bc91900443e" },
+    { "name": "Case Studies", "slug": "case-studies", "id": 173426290961294, "uuid": "00ce7c0b-2155-43a9-8001-ff78a6c2152e" },
+    { "name": "Blog",         "slug": "blog",         "id": 173426294545295, "uuid": "bb75c357-9dae-489a-9fdf-fcca6ba052f1", "note": "Folder + page (acts as blog index)" },
+    { "name": "Globals",      "slug": "globals",      "id": 173426296617872, "uuid": "effd4bf6-7906-4c46-9b7f-67f720171bc3" }
+  ],
+  "globals": [
+    { "name": "Site Header", "full_slug": "globals/header", "id": 173427426163613, "uuid": "500d8dda-5b9d-47ae-aabf-c9ee5f658b40", "component": "site_header" },
+    { "name": "Site Footer", "full_slug": "globals/footer", "id": 173427447331742, "uuid": "c7e1f8f2-1db5-4c69-816e-274fcefa7550", "component": "site_footer" }
+  ],
+  "pages": [
+    { "name": "Home",    "full_slug": "home",    "id": 173378843177513, "uuid": "f72d0a38-285f-4ef6-8f6e-641166dfef8d", "component": "page", "is_startpage": false, "note": "Default home story updated with full body" },
+    { "name": "About",   "full_slug": "about",   "id": 173427566812063, "uuid": "97d0f442-aec9-4edb-9088-2cb739336d26", "component": "page" },
+    { "name": "Blog",    "full_slug": "blog",    "id": 173426294545295, "uuid": "bb75c357-9dae-489a-9fdf-fcca6ba052f1", "component": "page", "note": "Same record as Blog folder; serves as blog index" },
+    { "name": "FAQ",     "full_slug": "faq",     "id": 173427617098656, "uuid": "00889a81-cae8-41cb-bb4e-93a0059acf47", "component": "page" },
+    { "name": "Contact", "full_slug": "contact", "id": 173427651591073, "uuid": "4684e5b7-3d7e-48b9-9423-09ffe28726bd", "component": "page" }
+  ],
+  "services": [
+    { "name": "Brand Identity",     "full_slug": "services/brand-identity",   "id": 173426555861905, "uuid": "96379bb2-6e02-43c6-bc72-2fd546ca20e7", "component": "service" },
+    { "name": "Website Design",     "full_slug": "services/website-design",   "id": 173426563214226, "uuid": "a844a843-e066-4132-ac30-f45b5123c433", "component": "service" },
+    { "name": "Marketing & Growth", "full_slug": "services/marketing-growth", "id": 173426572630931, "uuid": "f666c007-05a2-45a1-9a66-fc616605d2a5", "component": "service" }
+  ],
+  "case_studies": [
+    { "name": "Bloom Studio", "full_slug": "case-studies/bloom-studio", "id": 173426592426900, "uuid": "9a856337-fc85-4665-8b68-a7c563860c8a", "component": "case_study" }
+  ],
+  "posts": [
+    { "name": "How a brighter color palette gave us back our voice", "full_slug": "blog/color-palette-voice",      "id": 173426652650389, "uuid": "5ac176d4-f8ea-42d8-8b66-d9c2623f579e", "component": "post", "category": "design",   "featured_in": "blog/feature_section" },
+    { "name": "Design systems that scale with care",                 "full_slug": "blog/design-systems-scale",     "id": 173426663857046, "uuid": "b4ea3a58-d731-442c-b19e-e37368b15c92", "component": "post", "category": "design" },
+    { "name": "Why your brand voice is your roadmap",                "full_slug": "blog/brand-voice-roadmap",      "id": 173426677382039, "uuid": "049dcae8-8d46-45e9-b78c-5c1bc339fed4", "component": "post", "category": "strategy" },
+    { "name": "Building a studio that says no",                      "full_slug": "blog/studio-that-says-no",      "id": 173426690395032, "uuid": "fc94e7cc-23a9-4374-a038-14481e3255f5", "component": "post", "category": "brand" },
+    { "name": "A love letter to working type",                       "full_slug": "blog/love-letter-working-type", "id": 173426703248281, "uuid": "c34d211d-634e-4e98-9e25-2b7ab8b78c47", "component": "post", "category": "design" },
+    { "name": "Discovery without the theatre",                       "full_slug": "blog/discovery-without-theatre","id": 173426716822426, "uuid": "ff465834-3e86-4bf5-b7df-4d2a12f7c246", "component": "post", "category": "strategy" },
+    { "name": "Bloom Studio: a year in review",                      "full_slug": "blog/bloom-year-in-review",     "id": 173426727496603, "uuid": "0b623e5e-c256-4d76-9f54-7742dd3f526c", "component": "post", "category": "brand" }
+  ],
+  "page_body_summary": {
+    "home":    ["hero_intro", "banner_image", "services_grid → 3 services", "feature_section(case_study) → bloom-studio", "feature_section(cta)"],
+    "about":   ["page_header(large)", "banner_image", "values_section(3)", "team_section(3)"],
+    "blog":    ["page_header(small)", "feature_section(featured_post) → color-palette-voice", "posts_grid → 6 posts"],
+    "faq":     ["page_header(small)", "faq_list(6 items)", "cta_strip"],
+    "contact": ["page_header(small)", "contact_form(4 fields)", "contact_info(3 info_blocks + email block)"]
+  },
+  "review_checklist": [
+    "Visit each story in the Storyblok app and confirm fields are populated as expected",
+    "Verify references resolve (services_grid shows 3 services, posts_grid shows 6 posts, feature_section variants pick correct stories)",
+    "Optional: set Home as the space's startpage so / serves the home story",
+    "Once content looks right, publish all stories — see the Storyblok Releases feature for batched publishing"
+  ]
+}
